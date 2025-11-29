@@ -209,7 +209,7 @@ $(function () {
       }
     });
 
-    $(".image_treetime_23").attr("src", array_tree[index].img);
+    $(".image_treetime_3").attr("src", array_tree[index].img);
 
     $(".modal").css("display", "none");
   });
