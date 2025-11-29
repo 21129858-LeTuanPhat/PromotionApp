@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <script src="./assets/lib/jquery-3.7.1.min.js"></script>
+    <title>Plant</title>
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <div class="header">
+          <div class="header_width">
+            <img
+              class="logo"
+              src="./assets/img/logo/PRomotion__2_-removebg-preview.png"
+              alt=""
+            />
+            <div class="header_right">
+              <ul class="header_right_list">
+                <li class="treetime">TreeTime</li>
+                <li>Settings</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="contain">
+          <div class="content_left">
+            <div class="tag-master">
+              <div class="dot"></div>
+              <div class="tag-choose">Sport</div>
+            </div>
+
+            <div class="circle_1">
+              <svg
+                width="500"
+                height="500"
+                viewBox="0 0 500 500"
+                class="circular-progress"
+                style="--progress: 0"
+              >
+                <circle class="bg"></circle>
+                <circle class="fg"></circle>
+              </svg>
+              <div class="circle_2">
+                <div class="circle_3">
+                  <img
+                    class="image_treetime_3"
+                    src="./assets/img/Trees_texture_shadow/Autumn_tree3.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content_right">
+            <h1 class="timeLift">25:00</h1>
+            <div class="setup">
+              <button class="btn btn-start">Start</button>
+              <button class="btn btn-pause" disabled>Pause</button>
+              <button class="btn btn-reset">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__body">
+        <div class="selection_tree">
+          <div class="selection_tree_header">
+            <h2 class="tree_header-title">Select tree</h2>
+            <i class="tree_header-icon fa-solid fa-xmark"></i>
+          </div>
+          <div class="selection_tree_body">
+            <div class="tree">
+              <h3 class="title_tree">Trees</h3>
+              <div class="list_tree">
+                <div class="list_tree-iconLeft">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <img class="image_tree" alt="tree" />
+                <div class="list_tree-iconRight">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="time">
+              <h3 class="time-title">Focused Time</h3>
+              <div class="list_time">
+                <ul class="list_time-choose">
+                  <li>5</li>
+                  <li>10</li>
+                  <li>15</li>
+                  <li>20</li>
+                  <li class="active">25</li>
+                  <li>30</li>
+                  <li>35</li>
+                  <li>40</li>
+                  <li>45</li>
+                  <li>50</li>
+                  <li>55</li>
+                  <li>60</li>
+                  <li>65</li>
+                  <li>70</li>
+                  <li>75</li>
+                  <li>80</li>
+                  <li>85</li>
+                  <li>90</li>
+                  <li>95</li>
+                  <li>100</li>
+                  <li>105</li>
+                  <li>110</li>
+                  <li>115</li>
+                  <li>120</li>
+                </ul>
+              </div>
+            </div>
+            <div class="tag">
+              <h3 class="tag-title">Tag</h3>
+              <div class="list_tag">
+                <ul class="list_tag-choose">
+                  <li class="active">Sport</li>
+                  <li>Other</li>
+                  <li>Entertainment</li>
+                  <li>Rest</li>
+                  <li>Social</li>
+                  <li>Study</li>
+                  <li>Work</li>
+                  <li>Unset</li>
+                </ul>
+              </div>
+            </div>
+            <div class="btn-modal">
+              <button class="btn-save">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/index.js"></script>
+</html>
